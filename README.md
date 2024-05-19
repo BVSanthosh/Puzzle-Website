@@ -20,6 +20,3 @@ In order to define configuration, a file called `dbconfig.json` must be defined 
     "database": <name of the database>
 }
 ```
-
-## Support
-If you are in need of assistance, contact Group 8.

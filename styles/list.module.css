@@ -1,0 +1,146 @@
+  .logo {
+    margin-left: 30px;
+    vertical-align: middle;
+    display: inline;
+  }
+  
+  .logo:hover,
+  .logo:focus,
+  .logo:active {
+    /* filter: drop-shadow(-5px 5px 0px #9e8a67); */
+    animation-name: bump_animation;
+    animation-duration: 0.7s;
+    cursor: pointer;
+  }
+  .menuDropdown {
+    padding-left: 65%;
+  }
+  
+  .dropHead {
+    background-color: rgb(255, 185, 0);
+    border: 0;
+    font-size: 25px;
+  }
+  
+  .dropHead:hover,
+  .dropHead:focus{
+    background-color: #a800ea;
+    border: 0;
+    font-size: 25px;
+  }
+  
+  .dropItem {
+    background-color: rgb(255, 185, 0);
+    border: 0;
+    font-size: 20px;
+  }
+  
+  .dropItems {
+    background-color: rgb(255, 185, 0);
+    border: 0;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .dropItems:hover {
+    background-color: #a800ea;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    transition: background-color 0.35s ease;
+  }
+  
+  
+  @keyframes bump_animation {
+    0%{
+      transform: translate(0px, 0px);
+    }
+    35%{
+      transform: translate(0px, -5px);
+    }
+    100%{
+      transform: translate(0px, 0px);
+    }
+  }
+  
+  .icon {
+    display: inline;
+  }
+  
+  .menu {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 1%;
+    opacity: 80%;
+    color: rgb(158, 0, 237);
+  }
+  
+  .menu:hover,
+  .menu:focus,
+  .menu:active {
+    opacity: 100%;
+    cursor: pointer;
+  }
+  
+  .brand {
+    vertical-align: bottom;
+    margin-left: 10px;
+    display: inline;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .card {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #eaeaea;
+    border-radius: 10px;
+    border: 3px solid #eaeaea;
+    padding-top: 4vh;
+  }
+
+  .card_Body {
+    margin-top: 30px;
+    border-top: 3px solid #eaeaea;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color:white;
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, white 50%, rgb(234, 234, 234) 50%);
+    transition: background-position 1s;
+  }
+
+  .card_Title {
+    text-align: left;
+    color: #ea730f;
+  }
+
+  .card_Text {
+    text-align: left;
+    margin-bottom: 20px;
+    color: #9e9e9e;
+  }
+
+  .container {
+    margin: 5%;
+    border-radius: 10px;
+    border: 3px solid #eaeaea;
+  }
+
+  .container:hover,
+  .container:focus,
+  .container:active {
+    cursor:pointer;
+    box-shadow: 2px 2px 5px #eaeaea;
+  }
+
+  .card_Body:hover,
+  .card_Body:focus,
+  .card_Body:active {
+    background-position: -100% 0;
+  }
+
+  .big_container {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }

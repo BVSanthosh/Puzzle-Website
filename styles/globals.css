@@ -1,0 +1,73 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.sudokuColumn {
+  float: left;
+}
+
+/* ~~~~~~~~~ body ~~~~~~~~~~ */
+
+body {
+  background-color: white;
+  color: white;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*make all text white*/
+div {
+  color: white;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 20px;
+  background-color: #91317c;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  color: white;
+}
+
+table td {
+  padding: 8px;
+  font-size: 16px;
+}
+
+table tr {
+  color: #91317c;
+  font-weight: bold;
+}
+
+table tr:hover {
+  background-color: orange;
+}

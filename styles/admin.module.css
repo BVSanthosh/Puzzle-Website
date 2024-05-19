@@ -1,0 +1,255 @@
+.container {
+  background-color:transparent;
+  background-image: url("/loginbackground-01.png");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.logo {
+  vertical-align: middle;
+  display: inline;
+  margin-left: 30px;
+}
+
+.logo:hover,
+.logo:focus,
+.logo:active {
+  /* filter: drop-shadow(-5px 5px 0px #9e8a67); */
+  animation-name: bump_animation;
+  animation-duration: 0.7s;
+  cursor: pointer;
+}
+
+@keyframes bump_animation {
+  0%{
+    transform: translate(0px, 0px);
+  }
+  35%{
+    transform: translate(0px, -5px);
+  }
+  100%{
+    transform: translate(0px, 0px);
+  }
+}
+
+.icon {
+  display: inline;
+}
+
+.menu {
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: right;
+  margin-right: 20px;
+  display: inline;
+  opacity: 80%;
+}
+
+.menu:hover,
+.menu:focus,
+.menu:active {
+  opacity: 100%;
+  cursor: pointer;
+}
+
+.menuDropdown {
+  padding-left: 65%;
+}
+
+.dropHead {
+  background-color: rgb(255, 185, 0);
+  border: 0;
+  font-size: 25px;
+}
+
+.dropHead:hover,
+.dropHead:focus{
+  background-color: #a800ea;
+  border: 0;
+  font-size: 25px;
+}
+
+.dropItem {
+  background-color: rgb(255, 185, 0);
+  border: 0;
+  font-size: 20px;
+}
+
+.dropItems {
+  background-color: rgb(255, 185, 0);
+  border: 0;
+  color: white;
+  font-size: 20px;
+}
+
+.dropItems:hover {
+  background-color: #a800ea;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  transition: background-color 0.35s ease;
+}
+
+.brand {
+  vertical-align: bottom;
+  margin-left: 10px;
+  display: inline;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+  
+  /* ~~~~~~~~~ text ~~~~~~~~~~ */
+  .title {
+    color: var(--white);
+    font-size: 40px;
+    text-align: center;
+    padding: 2vh;
+  }
+  
+  .heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .heading2{
+    color: var(--orange);
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .paragraph {
+    font-size: 20px;
+    text-align: center;
+    color: var(--white);
+  }
+
+  .text{
+    text-align: left;
+    font-size: 1.75em;
+  }
+
+  
+  .form_link {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 15px;
+    color: var(--white);
+    text-decoration: none;
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .form_link:hover,
+  .form_link:focus,
+  .form_link:active {
+    text-decoration: none;
+    color: rgb(158, 0, 237);
+  }
+
+  .menu {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: right;
+    margin-right: 20px;
+    display: inline;
+    opacity: 80%;
+    color: rgb(158, 0, 237);
+  }
+  
+  /* ~~~~~~~~~~ button styling ~~~~~~~~~~ */
+  .sbutton {
+    width: 160px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(158, 0, 237);
+    padding: 4px;
+    color: white;
+  }
+  
+  
+  /* ~~~~~~~~~~ form styling ~~~~~~~~~~ */
+  .content_container {
+    margin-top: 3%;
+    display: inline-flex;
+    flex-direction:row;
+    align-items: center;
+  }
+
+  .content_container_register {
+    margin-top: 3%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  }
+  
+  .form_box, .login_input {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form_box {
+    margin: vh 5vw;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .center_container{
+    align-items: center;
+    vertical-align: middle;
+  }
+  
+  .content_container {
+    padding: 2vh;
+  }
+  
+  .transparent_box {
+    padding: 5vh 7vw;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  
+  .form_inputs {
+    margin-bottom: 2vh;
+    width: 35vw;
+    color: black;
+  }
+
+  
+/* ~~~~~~~~~~ table styling ~~~~~~~~~~ */  
+.table_container {
+  height: 400px;
+  width: 70%;
+  overflow: auto;
+  padding-top: 30px;
+  margin: auto;
+  
+}
+
+.table_page_container {
+  margin: 0px 5vw;
+  padding: 0px 40px 40px 40px;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+.table_contents {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+
+.tb_entry {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-wrap: break-all;
+  overflow-wrap: break-all;
+  display: inline-block;
+}

@@ -1,0 +1,32 @@
+{
+    "id":"2a3SxGOnv8DVF4zX-lfmj9sxl0",
+    "name":"Testing Wordoku",
+    "variant":"wordoku",
+    "data":{
+        "puzzle":[
+            [null,"d","b","W","A","O","n","R","e"],
+            [null,"O","n","k","R","b","d","W","A"],
+            ["A","R","W","n","d","e","b",null,"k"],
+            ["d","b","e","O","W","n","k","A","R"],
+            ["O","n","A","d","k","R","e","b","W"],
+            ["W","k","R","b","e","A","O","n","d"],
+            ["n","e","k","A","O","W","R","d","b"],
+            ["b","A","d","R","n","k","W","e","O"],
+            ["R","W","O","e","b","d","A","k","n"]
+        ],
+        "solution":[
+            ["k","d","b","W","A","O","n","R","e"],
+            ["e","O","n","k","R","b","d","W","A"],
+            ["A","R","W","n","d","e","b","O","k"],
+            ["d","b","e","O","W","n","k","A","R"],
+            ["O","n","A","d","k","R","e","b","W"],
+            ["W","k","R","b","e","A","O","n","d"],
+            ["n","e","k","A","O","W","R","d","b"],
+            ["b","A","d","R","n","k","W","e","O"],
+            ["R","W","O","e","b","d","A","k","n"]
+        ],
+        "word":"bReAkdOWn"
+    },
+    "author":{"_id":"QuIfwVAAjsuoyBF9-ldkkzy980","username":"awc6","email":"testtest","origin":{"name":"Group 8 Site","url":"dummy-url","id":"QuIfwVAAjsuoyBF9-ldkkzy980"},"xp":0,"solved":0},
+    "difficulty":3
+}

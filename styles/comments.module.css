@@ -1,0 +1,57 @@
+.heading {
+  padding-top: 3%;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.list {
+  color: black;
+  text-align: left;
+}
+
+.submit {
+  text-align: right;
+  padding-right: 3%;
+  display: block;
+  padding-bottom: 5%;
+  font-size: 20px;
+}
+
+.contentBox {
+  font-size: 20px;
+  margin-top: 1%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(53, 53, 53);
+  text-align: left;
+  border: 2px solid orange;
+  background-color: rgb(255, 204, 120);
+  padding: 3%;
+  width: 50%;
+}
+
+.editButton {
+  margin-left: 10px;
+  padding: 5px;
+  border: white;
+  background-color: #a800ea;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.commentInput {
+  padding-top: 1%;
+  color: rgb(53, 53, 53);
+  border: white;
+  border-bottom: 2px solid white;
+  background-color: rgb(255, 151, 0);
+}
+
+.commentCreate {
+  padding-top: 1%;
+  color: rgb(53, 53, 53);
+  border: white;
+  border-bottom: 2px solid white;
+  background-color: rgb(255, 204, 120);
+}
